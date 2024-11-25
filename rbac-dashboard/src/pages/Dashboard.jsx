@@ -1,10 +1,14 @@
 import React from 'react';
+import "../styles/Dashboard.css";
 
 const Dashboard = () => (
-  <div>
-    <h2>Welcome to the Admin Dashboard</h2>
-    <p>Use the navigation to manage users and roles and permissions for the roles.</p>
+  <div className="dashboard">
+      <div className="content">
+        <h1>Welcome to the Admin Dashboard</h1>
+        <p>Manage users, roles, and permissions efficiently.</p>
+      </div>
   </div>
+  
 );
 
 export default Dashboard;
